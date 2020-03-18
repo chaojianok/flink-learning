@@ -11,7 +11,7 @@
     <description>Learning Apache Flink</description>
 
     <modules>
-        <module>flink-learning-wordcount</module>
+        <module>wordcount</module>
     </modules>
 
     <properties>
