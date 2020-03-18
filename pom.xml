@@ -12,6 +12,8 @@
 
     <modules>
         <module>wordcount</module>
+        <module>data-sources</module>
+        <module>data-sinks</module>
     </modules>
 
     <properties>
@@ -51,6 +53,22 @@
             <version>${flink.version}</version>
         </dependency>
     </dependencies>
+
+    <repositories>
+        <repository>
+            <id>aliyun</id>
+            <name>aliyun</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public</url>
+        </repository>
+    </repositories>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>aliyun</id>
+            <name>aliyun</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public</url>
+        </pluginRepository>
+    </pluginRepositories>
 
 
 </project>
