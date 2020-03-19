@@ -1,3 +1,5 @@
+-- CREATE DATABASE `test` DEFAULT CHARACTER SET utf8;
+
 -- DROP TABLE IF EXISTS `user`;
 CREATE TABLE `user` (
   `id` int(11) NOT NULL,
